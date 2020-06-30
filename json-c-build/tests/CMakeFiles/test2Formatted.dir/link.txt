@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/test2Formatted.dir/test2.c.o CMakeFiles/test2Formatted.dir/parse_flags.c.o  -o test2Formatted -Wl,-rpath,/home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build ../libjson-c.so.5.0.0 

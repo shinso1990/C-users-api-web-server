@@ -1,0 +1,50 @@
+[2020-06-05 07:42:19.269] [renderer1] [error] timeout after 1000 ms: Error: timeout after 1000 ms
+    at t.RawDebugSession.handleErrorResponse (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3061:355)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3060:679
+    at async t.RawDebugSession.shutdown (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3058:772)
+    at async e.terminate (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6439:470)
+[2020-06-05 07:43:53.649] [renderer1] [error] timeout after 1000 ms: Error: timeout after 1000 ms
+    at t.RawDebugSession.handleErrorResponse (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3061:355)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3060:679
+    at async t.RawDebugSession.shutdown (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3058:772)
+    at async e.terminate (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6439:470)
+    at async Promise.all (index 0)
+[2020-06-05 07:45:13.430] [renderer1] [error] timeout after 1000 ms: Error: timeout after 1000 ms
+    at t.RawDebugSession.handleErrorResponse (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3061:355)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3060:679
+    at async t.RawDebugSession.shutdown (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3058:772)
+    at async e.terminate (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6439:470)
+    at async Promise.all (index 0)
+[2020-06-05 08:06:19.339] [renderer1] [error] timeout after 1000 ms: Error: timeout after 1000 ms
+    at t.RawDebugSession.handleErrorResponse (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3061:355)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3060:679
+    at async t.RawDebugSession.shutdown (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:3058:772)
+    at async e.terminate (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6439:470)
+[2020-06-06 11:35:12.159] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:38:13.869] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:38:53.828] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:39:31.362] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:32.547] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:35.741] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:37.672] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:41.693] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:45.892] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:47.939] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:49.044] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:51.348] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 11:45:56.710] [renderer1] [error] An unknown error occurred. Please consult the log for more details.
+[2020-06-06 17:41:07.633] [renderer1] [error] TreeError [MarkersView] Tree element not found: [object Object]: Error: TreeError [MarkersView] Tree element not found: [object Object]
+    at t.ObjectTreeModel.getElementLocation (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:114:373)
+    at t.ObjectTreeModel.isCollapsed (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:113:502)
+    at e.isCollapsed (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:1088:430)
+    at e.autoReveal (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6902:15)
+    at e.onActiveEditorChanged (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6898:1000)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6897:850
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:92:219
+    at e.fire (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:801)
+    at e.doHandleActiveEditorChangeEvent (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5908:1011)
+    at e.handleActiveEditorChange (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5908:809)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:5909:104
+    at e.fire (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:95:801)
+    at file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6120:679
+    at async e.openEditor (file:///snap/code/33/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:6119:589)

@@ -1,0 +1,3 @@
+[2020-06-05 07:21:08.251] [sharedprocess] [info] main {"machineId":"42bb2412e11942eacd2240f3de5a694f38707ae5b950920b8c1ce6334232856c","windowId":2}
+[2020-06-05 07:21:08.278] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/~/.vscode-root/User/snippets'
+[2020-06-05 07:21:48.265] [sharedprocess] [info] Starting to clean up unused language packs.

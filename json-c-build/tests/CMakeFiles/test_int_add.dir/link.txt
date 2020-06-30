@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/test_int_add.dir/test_int_add.c.o  -o test_int_add -Wl,-rpath,/home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build ../libjson-c.so.5.0.0 

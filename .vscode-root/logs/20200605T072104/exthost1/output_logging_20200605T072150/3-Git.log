@@ -1,0 +1,1411 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/alan/Escritorio/tesis/pin/source/tools/pinjection
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :.vscode/launch.json
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/.vscode/launch.json
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/.vscode/launch.json
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :.vscode/launch.json
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/.vscode/launch.json
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :.vscode/launch.json
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/.vscode/launch.json
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/srccpp/csapp.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/csapp.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/README.md
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/README.md
+> git show :ejecutables/tiny-web-server/comandosUtiles
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/comandosUtiles
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/README.md
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/README.md
+> git show :ejecutables/tiny-web-server/comandosUtiles
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/comandosUtiles
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/a.out
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/notes/struct-def.txt
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/notes/struct-def.txt
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/comandosUtiles
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/comandosUtiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/comandosUtiles
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/comandosUtiles
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/Makefile
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/Makefile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/tinyWebServer
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git rev-parse --show-toplevel
+fatal: no es un repositorio git (ni ninguno de los directorios superiores): .git
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/comandosUtiles
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/comandosUtiles
+> git show :ejecutables/tiny-web-server/Makefile
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/Makefile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/json_tokener.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_tokener.h
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/srccpp/csapp.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/csapp.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/json_object.c
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_object.c
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/json-c/json_object.c
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_object.c
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/json_object.c
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_object.c
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/json-c/json_tokener.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_tokener.h
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/Makefile
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/Makefile
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/libjson-c.so
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/libjson-c.so.5
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/libjson-c.so.5.0.0
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/libjson-c.so.5
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/libjson-c.so
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/json-c/apps/CMakeLists.txt
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/apps/CMakeLists.txt
+> git show :ejecutables/tiny-web-server/json-c-build/apps/Makefile
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/Makefile
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/json_parse
+> git show :ejecutables/tiny-web-server/json-c-build/apps/CTestTestfile.cmake
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CTestTestfile.cmake
+> git show :ejecutables/tiny-web-server/json-c-build/apps/cmake_install.cmake
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/cmake_install.cmake
+> git show :ejecutables/tiny-web-server/json-c-build/apps/CTestTestfile.cmake
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CTestTestfile.cmake
+> git show :ejecutables/tiny-web-server/json-c-build/apps/cmake_install.cmake
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/cmake_install.cmake
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/.Makefile.swp
+> git show :ejecutables/tiny-web-server/json-c-build/apps/CTestTestfile.cmake
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CTestTestfile.cmake
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CMakeFiles/json_parse.dir/json_parse.c.o
+> git show :ejecutables/tiny-web-server/json-c-build/apps/CMakeFiles/json_parse.dir/C.includecache
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CMakeFiles/json_parse.dir/C.includecache
+> git show :ejecutables/tiny-web-server/json-c-build/apps/CMakeFiles/json_parse.dir/flags.make
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CMakeFiles/json_parse.dir/flags.make
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/apps/CMakeFiles/json_parse.dir/json_parse.c.o
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/json_parse.c.o
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/CMakeLists.txt
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/CMakeLists.txt
+> git show :ejecutables/tiny-web-server/json-c/INSTALL
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/INSTALL
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/json-c/json-c.pc.in
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json-c.pc.in
+> git show :ejecutables/tiny-web-server/json-c/json_visit.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_visit.h
+> git show :ejecutables/tiny-web-server/json-c/json_tokener.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_tokener.h
+> git show :ejecutables/tiny-web-server/Makefile
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/Makefile
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/README.md
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/README.md
+> git show :ejecutables/tiny-web-server/json-c/README.html
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/README.html
+> git show :ejecutables/tiny-web-server/json-c/README.md
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/README.md
+> git show :ejecutables/tiny-web-server/json-c/README.html
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/README.html
+> git show :ejecutables/tiny-web-server/json-c/README.md
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/README.md
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/COPYING
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/COPYING
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/test_charcase
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/test_compare
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/json-c-build/tests/Makefile
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/Makefile
+> git show :ejecutables/tiny-web-server/json-c-build/tests/cmake_install.cmake
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/cmake_install.cmake
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/testReplaceExisting
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/test4
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/tests/test_json_pointer
+> git check-ignore -v -z --stdin
+> git show :ejecutables/tiny-web-server/json-c-build/json-c.pc
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/json-c.pc
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build/libjson-c.so.5.0.0
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/webserver.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/json-c/json_tokener.c
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_tokener.c
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/json_object.c
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_object.c
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/json-c/json_tokener.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_tokener.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git show :ejecutables/tiny-web-server/json-c/json_tokener.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c/json_tokener.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :ejecutables/tiny-web-server/srccpp/user.h
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.h
+> git show :ejecutables/tiny-web-server/srccpp/user.cpp
+> git ls-files --stage -- /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/srccpp/user.cpp
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template

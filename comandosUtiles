@@ -1,0 +1,9 @@
+sudo code --user-data-dir="~/.vscode-root"
+
+curl --header "Content-Type: application/json" \
+  --request POST \
+  --data '{"id":25,"firstName":"alan", "lastName":"castro","age":29 }' \
+  http://localhost:8007/user
+
+
+  sudo kill -9 $(sudo lsof -t -i:8007)

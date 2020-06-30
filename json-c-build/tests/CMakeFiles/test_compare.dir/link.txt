@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/test_compare.dir/test_compare.c.o  -o test_compare -Wl,-rpath,/home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/json-c-build ../libjson-c.so.5.0.0 
