@@ -315,14 +315,12 @@ struct Request *parse_request(const char *raw) {
 
     return req;
 }
-
+/*
 uint64_t rdtsc(){
     unsigned int lo,hi;
-    /* clang-format off */
     __asm__ __volatile__ ("rdtsc" : "=a" (lo), "=d" (hi));
-    /* clang-format on */
     return ((uint64_t)hi << 32) | lo;
-}
+}*/
 
 long int otherTime(){
     struct timeval tp;
@@ -336,7 +334,7 @@ void do_it(int fd) {
     char * fname = "src-log/logs/a.log";
     FILE * file = fopen(fname,"a+");
     long int timeIni = otherTime();
-    uint64_t ticksIni = rdtsc();
+    uint64_t ticksIni = 0;// rdtsc();
 
     char buf[MAXLINE];
     MEMSET(buf);
@@ -357,7 +355,7 @@ void do_it(int fd) {
     }
     free_request(r);
     long int timeFin = otherTime();
-    uint64_t ticksFin = rdtsc();
+    uint64_t ticksFin = 0;// rdtsc();
     fprintf(file, "%ld|%ld|%ld|%ld|%s|%s\n", timeIni, timeFin, ticksIni, ticksFin, method, uri);
     fclose(file);
 }
