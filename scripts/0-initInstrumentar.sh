@@ -3,6 +3,7 @@ OUTPUT_FILE_PATH=0.ignore.out
 URL_BASE=http://localhost:8007/
 #curl --header "Content-Type: application/json"   --request GET   http://localhost:8007/user
 
+
 #instrumentar métodos base:
 
 ##createUser (post)
