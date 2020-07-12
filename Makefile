@@ -48,6 +48,7 @@ clog:
 	gcc -pthread -g -Werror -O2   -c -o src-log/webserver.ignore.o src-log/webserver.c
 	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.clog src-log/user.ignore.o src-log/userParser.ignore.o src-log/csapp.ignore.o src-log/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
 
+
 clog5:
 	gcc-5 -pthread -g -Werror -O2   -c -o src-log/user.ignore.o src-log/user.c -l sqlite3
 	gcc-5 -pthread -g -Werror -O2   -c -o src-log/userParser.ignore.o src-log/userParser.c -l sqlite3
