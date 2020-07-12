@@ -1,22 +1,27 @@
 #!/bin/bash
+OUTPUT_FILE_PATH=0.ignore.out
 URL_BASE=http://localhost:8007/
+#curl --header "Content-Type: application/json"   --request GET   http://localhost:8007/user
 
 #instrumentar métodos base:
+
+##createUser (post)
+./LOG_POST.sh "$URL_BASE"user $OUTPUT_FILE_PATH
+
 ##getAllUsers
-curl --header "Content-Type: application/json"   --request GET   {$URL_BASE}user
+./LOG_GET.sh "$URL_BASE"user $OUTPUT_FILE_PATH
 
 ##getUserById
 ###encuentra un usuario por id
-curl --header "Content-Type: application/json"   --request GET   {$URL_BASE}user/1
-###el id no está en la bd => error
-curl --header "Content-Type: application/json"   --request GET   {$URL_BASE}user/9999
-###no le paso id => error
-curl --header "Content-Type: application/json"   --request GET   {$URL_BASE}user/
+./LOG_GET.sh "$URL_BASE"user/1 $OUTPUT_FILE_PATH
 
-##createUser (post)
-curl --header "Content-Type: application/json"   --request POST   --data '{"firstName":"ramon", "lastName":"perez","age":34 }'   {$URL_BASE}user
+###el id no está en la bd => error
+./LOG_GET.sh "$URL_BASE"user/9999 $OUTPUT_FILE_PATH
+
+###no le paso id => error
+./LOG_GET.sh "$URL_BASE"user/ $OUTPUT_FILE_PATH
+
 
 ##invalid endpoint 
-curl --header "Content-Type: application/json"   --request GET   {$URL_BASE}usr
-
+./LOG_GET.sh "$URL_BASE"usr $OUTPUT_FILE_PATH
 

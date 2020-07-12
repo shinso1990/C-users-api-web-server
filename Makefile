@@ -18,27 +18,39 @@ $(TARGET): $(OBJS)
 
 clean:
 	rm -f $(OBJS) $(TARGET)
-	rm -f tinyWebServerCpp srccpp/csapp.o srccpp/webserver.o srccpp/user.o
+	rm -f tinyWebServerCpp srccpp/csapp.o srccpp/webserver.o srccpp/user.o srccpp/userParser.o
+	rm -f tinyWebServerCLog src-log/csapp.o src-log/webserver.o src-log/user.o src-log/userParser.o
+	rm -f tinyWebServerTest src-test/csapp.o src-test/webserver.o src-test/user.o src-test/userParser.o
+
+base:
+	gcc -pthread -g -Werror -O2   -c -o src-base/csapp.o src-base/csapp.c
+	gcc -pthread -g -Werror -O2   -c -o src-base/webserver.o src-base/webserver.i 
+	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.base src-base/csapp.o src-base/webserver.o 
+
+test:
+	gcc -pthread -g -Werror -O2   -c -o src-test/user.ignore.o src-test/user.c -l sqlite3
+	gcc -pthread -g -Werror -O2   -c -o src-test/userParser.ignore.o src-test/userParser.c -l sqlite3
+	gcc -pthread -g -Werror -O2   -c -o src-test/csapp.ignore.o src-test/csapp.c
+	gcc -pthread -g -Werror -O2   -c -o src-test/webserver.ignore.o src-test/webserver.c
+	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.test src-test/csapp.ignore.o src-test/webserver.ignore.o src-test/userParser.ignore.o src-test/user.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
 
 c:
-	gcc -pthread -g -Werror -O2   -c -o src/user.o src/user.c -l sqlite3
-	gcc -pthread -g -Werror -O2   -c -o src/userParser.o src/userParser.c -l sqlite3
-	gcc -pthread -g -Werror -O2   -c -o src/csapp.o src/csapp.c
-	gcc -pthread -g -Werror -O2   -c -o src/webserver.o src/webserver.c
-	gcc -pthread -g -Werror -O2 -o tinyWebServer src/user.o src/userParser.o src/csapp.o src/webserver.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
+	gcc -pthread -g -Werror -O2   -c -o src/user.ignore.o src/user.c -l sqlite3
+	gcc -pthread -g -Werror -O2   -c -o src/userParser.ignore.o src/userParser.c -l sqlite3
+	gcc -pthread -g -Werror -O2   -c -o src/csapp.ignore.o src/csapp.c
+	gcc -pthread -g -Werror -O2   -c -o src/webserver.ignore.o src/webserver.c
+	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.c src/user.ignore.o src/userParser.ignore.o src/csapp.ignore.o src/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
 
 clog:
-	gcc -pthread -g -Werror -O2   -c -o src-log/user.o src-log/user.c -l sqlite3
-	gcc -pthread -g -Werror -O2   -c -o src-log/userParser.o src-log/userParser.c -l sqlite3
-	gcc -pthread -g -Werror -O2   -c -o src-log/csapp.o src-log/csapp.c
-	gcc -pthread -g -Werror -O2   -c -o src-log/webserver.o src-log/webserver.c
-	gcc -pthread -g -Werror -O2 -o tinyWebServerCLog src-log/user.o src-log/userParser.o src-log/csapp.o src-log/webserver.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
+	gcc -pthread -g -Werror -O2   -c -o src-log/user.ignore.o src-log/user.c -l sqlite3
+	gcc -pthread -g -Werror -O2   -c -o src-log/userParser.ignore.o src-log/userParser.c -l sqlite3
+	gcc -pthread -g -Werror -O2   -c -o src-log/csapp.ignore.o src-log/csapp.c
+	gcc -pthread -g -Werror -O2   -c -o src-log/webserver.ignore.o src-log/webserver.c
+	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.clog src-log/user.ignore.o src-log/userParser.ignore.o src-log/csapp.ignore.o src-log/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
 
-cpp:
-	g++ -pthread -g -Werror -O2 -c -o srccpp/user.o srccpp/user.cpp $(CPP_CFLAGS) $(CPP_LDFLAGS)
-	#g++ -pthread -g -Werror -O2 -c -o srccpp/csapp.o srccpp/csapp.cpp
-	#g++ -pthread -g -Werror -O2 -c -o srccpp/webserver.o srccpp/webserver.cpp
-	#g++ -pthread -g -Werror -O2 -o tinyWebServerCpp srccpp/csapp.o srccpp/webserver.o srccpp/user.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
-#gcc -pthread -g -Werror -O2 -c -o src/csapp.o src/csapp.c
-#gcc -pthread -g -Werror -O2 -c -o src/webserver.o src/webserver.c
-#g++ -pthread -g -Werror -O2 -o tinyWebServer src/csapp.o src/webserver.o
+clog5:
+	gcc-5 -pthread -g -Werror -O2   -c -o src-log/user.ignore.o src-log/user.c -l sqlite3
+	gcc-5 -pthread -g -Werror -O2   -c -o src-log/userParser.ignore.o src-log/userParser.c -l sqlite3
+	gcc-5 -pthread -g -Werror -O2   -c -o src-log/csapp.ignore.o src-log/csapp.c
+	gcc-5 -pthread -g -Werror -O2   -c -o src-log/webserver.ignore.o src-log/webserver.c
+	gcc-5 -pthread -g -Werror -O2 -o tinyWebServer.ignore.clog5 src-log/user.ignore.o src-log/userParser.ignore.o src-log/csapp.ignore.o src-log/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
