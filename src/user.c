@@ -251,6 +251,7 @@ int callback(void *NotUsed, int argc, char **argv, char **azColName) {
     
     return 0;
 }
+
 /*
 int main(int argc, char **argv ){
     const char * dbName = "main_test_db";

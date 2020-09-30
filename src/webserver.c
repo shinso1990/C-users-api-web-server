@@ -1,6 +1,8 @@
 #include "csapp.h"
 #include <sys/wait.h>
 #include "userParser.h"
+#include "extraFunctions.h"
+#include "sortNumbers.h"
 #include <stdbool.h>
 #include <sys/time.h>
 
@@ -59,36 +61,18 @@ void sigchild_handler(int signal) {
 }
 
 int main(int argc, char const *argv[]){
-    if(argv[0] != NULL && argv[1] != NULL){
-        dbName = argv[1];
+    int port = 8007;
+
+    if(argv[1] != NULL ){
+        port = atoi(argv[1]);
         if(argv[2] != NULL){
-            logPath = argv[2];
+            dbName = argv[2];
+            if(argv[3] != NULL){
+                logPath = argv[3];
+            }
         }
     }
     createUserTable(dbName);
-
-    int port = 0;
-    switch(argc) {
-        case 1: {
-            //fprintf(stderr, "usage: %s <port>\n", argv[0]);
-            port = DEFAULT_PORT;
-            fprintf(stdout, "usage: %s <port> (default port is %d)\n", argv[0], DEFAULT_PORT);
-            break;
-        }
-        case 2: {
-            port = atoi(argv[1]);
-            break;
-        }
-        default:
-            break;
-    }
-
-    if (port == 0) {
-        fprintf(stderr, "error port: %d\n", port);
-        fprintf(stderr, "usage: %s <port>\n", argv[0]);
-        return -1;
-    }
-
     signal(SIGCHLD, sigchild_handler);
 
     int listenfd = open_listenfd(port);
@@ -118,7 +102,7 @@ int main(int argc, char const *argv[]){
         }
         hp = gethostbyaddr((const char *) &addr.sin_addr.s_addr, sizeof(addr.sin_addr.s_addr), AF_INET);
         hp_name = inet_ntoa(addr.sin_addr);
-        printf("server connected to %s (%s)\n", hp->h_name, hp_name);
+        //printf("server connected to %s (%s)\n", hp->h_name, hp_name);
     }
     printf("------ exit ------\n");
     return 0;
@@ -138,6 +122,22 @@ bool prefix(const char *pre, const char *str)
     return strncmp(pre, str, strlen(pre)) == 0;
 }
 
+static long counter = 0;
+static long counterAux = 0;
+static long otherCounter = 0;
+void forFunction(long count){
+    counter = 0;
+    otherCounter = 0;
+    counterAux = 0;
+    for(long i = 0; i < count; i++){
+        counterAux += 1;
+        otherCounter +=1;
+        counter = counterAux + otherCounter;
+    }
+}
+
+static int arr1 [10000000] = {};
+static int arr2 [10000000] = {};
 
 void receive_get(int fd, rio_t rio, char * uri){
     char method[3] = "GET";
@@ -151,16 +151,6 @@ void receive_get(int fd, rio_t rio, char * uri){
             int resultSize = 0;
             int usersCount = getUsersCount(dbName);
             struct User * users = getAllUsers(dbName,usersCount, &resultSize);
-            /*struct User *users = (struct User *)malloc( sizeof(struct User) * 10);
-            for(int i = 0; i < 10; i++){
-                users[i].id = i;
-                strcpy( users[i].firstName,"hola");
-                strcpy( users[i].lastName, "chau");
-                users[i].age = 29; 
-            }
-            resultSize = 10;
-            */
-            //
             jsonString = getJsonFromUsersList(users, resultSize);
             serve_json(fd, jsonString, strlen(jsonString) );
             free(users);
@@ -169,15 +159,6 @@ void receive_get(int fd, rio_t rio, char * uri){
             uriWithoutUser++; //salteo la barra
             int userId = a2iWithIndex(uriWithoutUser, strlen(uriWithoutUser));
             struct User * user = getUserById(dbName,userId);
-            //
-            /*
-            struct User *user = (struct User *)malloc( sizeof(struct User));
-            user[0].id = 99;
-            strcpy( user[0].firstName,"hola");
-            strcpy( user[0].lastName, "chau");
-            user[0].age = 29; 
-            */
-            //
             if(user == NULL){
                 char errorMsg[100];
                 sprintf(errorMsg,"invalid user id. uri: %s",uri);
@@ -190,6 +171,79 @@ void receive_get(int fd, rio_t rio, char * uri){
             }
         }
         return;
+    } else if(prefix("/sleep/1", uri)){
+        sleep(1);
+        client_return_json(fd, "200", "OK", "SLEEP 1" );
+        return;
+    } else if(prefix("/sleep/2", uri)){
+        sleep(2);
+        client_return_json(fd, "200", "OK", "SLEEP 2" );
+        return;
+    } else if(prefix("/sleep/3", uri)){
+        sleep(3);
+        client_return_json(fd, "200", "OK", "SLEEP 3" );
+        return;
+    } else if(prefix("/for/1", uri)){
+        forFunction(100000000);
+        client_return_json(fd, "200", "OK", "FOR 1" );
+        return;
+    } else if(prefix("/for/2", uri)){
+        forFunction(200000000);
+        client_return_json(fd, "200", "OK", "FOR 2" );
+        return;
+    } else if(prefix("/for/3", uri)){
+        forFunction(300000000);
+        client_return_json(fd, "200", "OK", "FOR 3" );
+        return;
+    } else if(prefix("/run", uri)){
+        counter1 = 0;
+        counter4 = run(10000);
+        client_return_json(fd, "200", "OK", "RUN" );
+        return;
+    } else if(prefix("/array",uri)){
+        for(int i = 0; i < 1000000; i ++){
+            arr1[i] = ((i * 33) - 10) + (45 / 5);
+            for(int j = 0; j < 1000000; j++  ){
+                arr2[j] = arr1[i] + 7;
+            }
+        }  
+        client_return_json(fd, "200", "OK", "ARRAY" );
+    } else if(prefix("/sort",uri)){
+        sortNumbers();
+        restartNumbers();
+    } else if(prefix("/getx1000",uri)){
+        int i = 0;
+        while(i < 1000){
+            struct User * user = getUserById(dbName,1);
+            i = i+1;
+        }
+    } else if(prefix("/getx100",uri)){
+        int i = 0;
+        while(i < 100){
+            struct User * user = getUserById(dbName,1);
+            i = i+1;
+        }
+    } else if(prefix("/createuser/",uri)){
+        struct User user;
+        user.age = 33;
+        strcpy(user.firstName, "un nombre");
+        strcpy(user.lastName, "apellido");
+        int count = 10;
+        if(prefix("/createuser/10",uri))
+            count = 10;
+        else if (prefix("/createuser/20",uri))
+            count = 20;
+        else if (prefix("/createuser/30",uri))
+            count = 30;
+        else if (prefix("/createuser/40",uri))
+            count = 40;
+        else if (prefix("/createuser/50",uri))
+            count = 50;
+        else if (prefix("/createuser/100",uri))
+            count = 100;
+        for(int i =0; i < count; i++){
+            createUser(dbName,user);
+        }
     }
     client_error(fd, "NO API", "404", "Not Found", "web server could not find this file");
     return;
@@ -407,3 +461,5 @@ void do_it(int fd) {
         serve_dynamic(fd, filename, cgiargs);
     }*/
 }
+
+//objdump -d tinyWebServer.ignore.c | grep forFunction -A 100

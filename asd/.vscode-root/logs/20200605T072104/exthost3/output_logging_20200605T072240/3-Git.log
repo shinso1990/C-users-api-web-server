@@ -1,0 +1,25 @@
+Looking for git in: git
+Using git 2.17.1 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/alan/Escritorio/tesis/pin/source/tools/pinjection/ejecutables/tiny-web-server/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:165:26)
+	at Object.watch (fs.js:1270:11)
+	at Object.t.watch (/snap/code/33/usr/share/code/resources/app/extensions/git/dist/main.js:1:604919)
+	at T.updateTransientWatchers (/snap/code/33/usr/share/code/resources/app/extensions/git/dist/main.js:1:83965)
+	at e.fire (/snap/code/33/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:46:87)
+	at e.updateModelState (/snap/code/33/usr/share/code/resources/app/extensions/git/dist/main.js:1:103179)
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master

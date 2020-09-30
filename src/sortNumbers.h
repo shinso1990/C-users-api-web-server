@@ -1,0 +1,3 @@
+
+void sortNumbers();
+void restartNumbers();

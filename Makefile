@@ -35,11 +35,13 @@ test:
 	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.test src-test/csapp.ignore.o src-test/webserver.ignore.o src-test/userParser.ignore.o src-test/user.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
 
 c:
-	gcc -pthread -g -Werror -O2   -c -o src/user.ignore.o src/user.c -l sqlite3
-	gcc -pthread -g -Werror -O2   -c -o src/userParser.ignore.o src/userParser.c -l sqlite3
-	gcc -pthread -g -Werror -O2   -c -o src/csapp.ignore.o src/csapp.c
-	gcc -pthread -g -Werror -O2   -c -o src/webserver.ignore.o src/webserver.c
-	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.c src/user.ignore.o src/userParser.ignore.o src/csapp.ignore.o src/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
+	gcc -pthread -g -Werror -O1   -c -o src/user.ignore.o src/user.c -l sqlite3
+	gcc -pthread -g -Werror -O1   -c -o src/userParser.ignore.o src/userParser.c -l sqlite3
+	gcc -pthread -g -Werror -O1   -c -o src/csapp.ignore.o src/csapp.c
+	gcc -pthread -g -Werror -O1   -c -o src/extraFunctions.ignore.o src/extraFunctions.c
+	gcc -pthread -g -Werror -O1   -c -o src/sortNumbers.ignore.o src/sortNumbers.c
+	gcc -pthread -g -Werror -O1   -c -o src/webserver.ignore.o src/webserver.c
+	gcc -pthread -g -Werror -O1 -o tinyWebServer.ignore.c src/user.ignore.o src/sortNumbers.ignore.o src/extraFunctions.ignore.o src/userParser.ignore.o src/csapp.ignore.o src/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
 
 clog:
 	gcc -pthread -g -Werror -O2   -c -o src-log/user.ignore.o src-log/user.c -l sqlite3
@@ -47,7 +49,6 @@ clog:
 	gcc -pthread -g -Werror -O2   -c -o src-log/csapp.ignore.o src-log/csapp.c
 	gcc -pthread -g -Werror -O2   -c -o src-log/webserver.ignore.o src-log/webserver.c
 	gcc -pthread -g -Werror -O2 -o tinyWebServer.ignore.clog src-log/user.ignore.o src-log/userParser.ignore.o src-log/csapp.ignore.o src-log/webserver.ignore.o -l sqlite3 $(CPP_CFLAGS) $(CPP_LDFLAGS)
-
 
 clog5:
 	gcc-5 -pthread -g -Werror -O2   -c -o src-log/user.ignore.o src-log/user.c -l sqlite3

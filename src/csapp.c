@@ -212,8 +212,6 @@ int parse_uri(char *uri, char *filename, char *cgiargs) {
     return 0;
 }
 
-
-
 void parse_req_headerline(rio_t *rp) {
     char buf[MAXLINE];
     MEMSET(buf);
@@ -224,7 +222,6 @@ void parse_req_headerline(rio_t *rp) {
         //printf("%s", buf);
     }
 }
-
 
 void client_error(int fd, char *cause, char *errnum, char *shortmsg, char *longmsg) {
     char buf[MAXLINE], body[MAXLINE];
@@ -287,8 +284,6 @@ void client_return_json(int fd, char * statusCode, char *shortmsg, char *longmsg
     rio_writen(fd, body, strlen(body));
 }
 
-
-
 void serve_static(int fd, char *filename, int filesize) {
     char filetype[MAXLINE];
     char buf[MAXLINE];
@@ -334,7 +329,6 @@ void serve_dynamic(int fd, char *filename, char *cgiargs) {
     // not implemented yet
     return;
 }
-
 
 void serve_json(int fd, char *json, int jsonSize) {
     char buf[MAXLINE];

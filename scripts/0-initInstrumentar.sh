@@ -3,7 +3,6 @@ OUTPUT_FILE_PATH=0.ignore.out
 URL_BASE=http://localhost:8007/
 #curl --header "Content-Type: application/json"   --request GET   http://localhost:8007/user
 
-
 #instrumentar métodos base:
 
 ##createUser (post)
@@ -26,3 +25,19 @@ URL_BASE=http://localhost:8007/
 ##invalid endpoint 
 ./LOG_GET.sh "$URL_BASE"usr $OUTPUT_FILE_PATH
 
+
+##sleep
+./LOG_GET.sh "$URL_BASE"sleep/1 $OUTPUT_FILE_PATH
+./LOG_GET.sh "$URL_BASE"sleep/2 $OUTPUT_FILE_PATH
+./LOG_GET.sh "$URL_BASE"sleep/3 $OUTPUT_FILE_PATH
+
+##for
+./LOG_GET.sh "$URL_BASE"for/1 $OUTPUT_FILE_PATH
+./LOG_GET.sh "$URL_BASE"for/2 $OUTPUT_FILE_PATH
+./LOG_GET.sh "$URL_BASE"for/3 $OUTPUT_FILE_PATH
+
+./LOG_GET.sh "$URL_BASE"run $OUTPUT_FILE_PATH
+
+./LOG_GET.sh "$URL_BASE"sort $OUTPUT_FILE_PATH
+
+./LOG_GET.sh "$URL_BASE"array $OUTPUT_FILE_PATH
